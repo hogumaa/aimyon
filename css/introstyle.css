@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face { font-family:  'star';
+    src: url('font/PFStardust1.4.otf');
+}
+
+@font-face { font-family:  'pixel';
+    src: url('font/pixelroborobo.otf');
+}
+
+/* 전체설정 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgbox {position: relative;}
+
+.imgbox .mac {position: absolute;
+                width: 68%;
+                left: 15%;}
+
+.txtbox .popup {position: absolute;
+                width: 25%;
+                left: 36%;
+                margin-top: 7%;
+                display: none;}
+
+.txtbox .popup2 {position: absolute;
+                width: 25%;
+                left: 36%;
+                margin-top: 6%;
+                display: none;}
+
+.imgbox:hover .popup {display: block;}
+.txtbox:hover .popup {display: none;}
+.txtbox:hover .popup2 {display: block;}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* 전체설정 */
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    text-decoration: none;}
+
+a {text-decoration: none;
+    color: #000;}
+
+    .top {float: left;
+        display: flex;
+            width: 100%;
+            margin-top: 3%;
+        position: relative;
+            margin-left: 4%;
+            }
+    
+    .top a:hover img {transform:scale(1.1);}
+    
+    .top img {}
+    
+    .top p {background-color: white;
+        box-shadow: inset 1px 1px #000;
+            padding: 4px;
+            padding-left: 8px;
+            font-size: 20px;
+            letter-spacing: 2px;
+            width: 60%;
+            height: 30%;
+            margin-top: 1%;
+            margin-left: 1%;}
+
+.musicbox {text-align: center;
+            
+            marigin: 10%;
+            width: 56%;
+            height: 20%;
+            display: flex;
+            }
+
+.musicbox p {text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;}
+
+.musicbox div:hover {color: blue;}
+
+.musicbox .tamago {position: relative;
+                   top: 80%;
+                    margin-left: 10%;
+                    }
+
+.musicbox .tamago img {}
+
+.musicbox .tamago p {}
+
+.musicbox .tamago .sine {position: absolute;
+                        bottom: 60%;
+                        left:37%;}
+
+.musicbox .grass {position: relative;
+                    top: 80%;
+                    margin-left: 5%;}
+
+.musicbox .grass img {}
+
+.musicbox .grass p {}
+
+.musicbox .grass .iki {position: absolute;
+                        bottom: 60%;
+                        left: 37%;}
+
+.musicbox .youth {position: relative;
+                            top: 80%;
+                            margin-left: 5%;}
+        
+.musicbox .youth img {}
+        
+.musicbox .youth p {}
+        
+.musicbox .youth .ai {position: absolute;
+                                bottom: 60%;
+                                left: 37%;}
+
+.musicbox .six {position: relative;
+    top: 80%;
+    margin-left: 5%;}
+                
+.musicbox .six img {}
+                
+.musicbox .six p {}
+                
+.musicbox .six .mari {position: absolute;
+                        bottom: 60%;
+                        left: 37%;}
+
+.musicbox .heard {position: relative;
+    top: 180%;
+    margin-left: -67.5%;}
+                
+.musicbox .heard img {}
+                
+.musicbox .heard p {}
+                
+.musicbox .heard .sayo {position: absolute;
+                        bottom: 60%;
+                        left: 37%;}
+
+.youtube {position: relative;
+            bottom: -180%;
+            left: 4%;}
+
+.youtube a:hover p {color: blue;}
+
+.youtube img {}
+
+.youtube p {}

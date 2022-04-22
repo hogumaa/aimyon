@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@font-face { font-family:  'star';
+    src: url('../font/PFStardust1.4.otf');
+}
+
+/* 전체설정 */
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    text-decoration: none;}
+
+ul {list-style: none;} 
+
+a {text-decoration: none;
+    color: #000;}
+
+b {font-family: 'Noto Sans';}
+
+.top {float: left;
+    display: flex;
+        width: 100%;
+        margin-top: 3%;
+    position: relative;
+        margin-left: 4%;
+        }
+
+.top a:hover img {transform:scale(1.1);}
+
+.top p {background-color: white;
+    box-shadow: inset 1px 1px #000;
+        padding: 4px;
+        padding-left: 8px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        width: 60%;
+        height: 30%;
+        margin-top: 1%;
+        margin-left: 1%;}
+
+#wrap {width: 500px;
+    margin-left: 7%;
+    margin-right:auto ;}
+
+    .trailer {width: 400px;
+        height: 800px;}
+
+        .trailer ul {display: flex;
+            width: 500px;
+            height: 500px;}  
+
+            .trailer li { padding: 5%;
+                opacity: 0.8;}
+            
+            .trailer li:hover {opacity: 1;
+                                transform: scale(1.1);}
+
+            .trailer li img {border: 2px solid #fff}
+
+                .trailer li:nth-child(4) {margin-top: 50%;
+                                            margin-left: -122%;}
+                .trailer li:nth-child(5) {margin-top: 50%;
+                                            margin-left: 0%;
+                                            z-index: 5;
+                                            }
+                .trailer li:nth-child(6) {margin-top: 50%;
+                                            margin-left: 0%;
+                                            z-index: 2;}
+
+    .imgBox {width: 376px;
+        height: 323.89px;
+        position: relative;
+        left: 130.5%;
+        margin-top: -123.5%;
+        }
+
+.imgBox p {position: absolute;
+                    width: 100%;
+                    height: 100%;                   
+                text-align: center;
+
+        display: none;}    
+        
+        .imgBox p img {position: absolute;
+            height: 323.89px;
+            width: 373px;
+            right: 0.5%;
+        }    
+
+
+.chan {position: absolute;
+        bottom: -15%;
+        left: -5%;
+    /* 둥둥 떠다니는 애니메이션 */
+    animation:ani 0.5s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,4px);}}
+
+.chan2 {position: absolute;
+    bottom: -15%;
+    left: 78%;
+/* 둥둥 떠다니는 애니메이션 */
+animation:ani 0.7s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,6px);}}
+
+

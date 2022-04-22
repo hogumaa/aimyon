@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@font-face { font-family:  'star';
+    src: url('../font/PFStardust1.4.otf');
+}
+
+/* 전체설정 */
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    text-decoration: none;}
+
+a {text-decoration: none;
+    color: #000;}
+
+b {font-family: 'Noto Sans';}
+
+.top {float: left;
+    display: flex;
+        width: 100%;
+        margin-top: 3%;
+    position: relative;
+        margin-left: 4%;
+        }
+
+.top a:hover img {transform:scale(1.1);}
+
+.top p {background-color: white;
+    box-shadow: inset 1px 1px #000;
+        padding: 4px;
+        padding-left: 8px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        width: 60%;
+        height: 30%;
+        margin-top: 1%;
+        margin-left: 1%;}
+
+.info {float: left;
+    display: flex;
+        width: 100%;
+        margin-top: 4%;
+    position: relative;
+        margin-left: 4%;
+        padding-bottom: 5%;}
+
+
+.txtbox {margin-left: 3%;
+        }
+        .info .txtbox p a {color: #4D2579;
+                font-size: 20px;}
+
+.info .txtbox p a:hover {color: hotpink;}
+
+.info .txtbox h1 {font-family: 'star';
+            font-size: 40px;
+            text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+            padding-bottom: 10px;
+            /* 둥둥 떠다니는 애니메이션 */
+    animation:ani 0.5s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,4px);}}
+
+            
+
+.info .txtbox p {opacity: 1;
+    line-height: 30px;
+                letter-spacing: 1px;
+                font-size: 16px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff}
+
+.mvbox {text-align: center;
+        vertical-align: bottom;}
+
+.mvbox iframe {box-shadow: #000;}
+
+.mvbox h2 {font-family: 'star';
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    padding-bottom: 3px;
+    letter-spacing: 1px;}
+
+    .mvbox p {
+        text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+        padding-bottom: 3px;
+        letter-spacing: 2px;}
+    
+    .mvbox p a {color: #4D2579;
+                font-size: 20px;}
+
+    .mvbox p a:hover {color: hotpink}
+
+.txtbox2 {float: left;
+    display: flex;
+width: 100%;
+        
+        }
+
+
+.txtbox2 p {text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    font-size: 18px;
+    padding-bottom: 3px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 10%;}
+
+    .txtbox2 p a {color: #4D2579;
+        font-size: 20px;}
+
+        .txtbox2 p a:hover {color: hotpink}
+
+.txtbox2 .twt {position: absolute;
+                box-shadow:2px 2px 4px #000;
+                margin-top: 2%;
+            /* 둥둥 떠다니는 애니메이션 */
+    animation:ani 0.5s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,4px);}}
+
+.txtbox2 .twt:hover {transform: scale(1.05);}
+
+.txtbox2 .ins {position: absolute;
+                top: 240%;
+                right: -1%;
+                /* 둥둥 떠다니는 애니메이션 */
+    animation:ani 0.6s infinite alternate;  
+}
+@keyframes ani{
+0%{transform:translate(0,0);}
+100%{transform:translate(0,4px);}}
+
+                
+
+.txtbox2 .ins:hover {transform: scale(1.1);}
+
+
+
+
